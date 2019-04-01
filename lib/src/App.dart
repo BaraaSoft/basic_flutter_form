@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_basic_form/src/screens/login_form.dart';
 
 class App extends StatefulWidget{
 
@@ -18,6 +19,7 @@ class AppState extends State<App>{
        appBar: AppBar(
          title: Text("Login"),
        ),
+        body: LoginForm(),
       )
     );
   }
